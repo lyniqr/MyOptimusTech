@@ -1,0 +1,280 @@
+:root {
+    --text-midgray:#3A404E;
+    --text-lightgray: #667085;
+    --text-darkgray: #101828;
+    --text-deco-orange: #8E2424;
+}
+
+.body {
+    font-family: 'Inter';
+}
+
+.navbar {
+    height: 80px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Inter" ;
+    padding: 0 112px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    order: 0;
+}
+
+.logo__img {
+    margin-right: 8px;
+    width: 27px;
+    height: 27px;
+}
+
+.logo__texto {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--text-midgray);
+    font-style: normal;
+}
+
+.menu{
+    order: 1;
+    align-self: center;
+}
+
+.menu__options {
+    display: flex;
+    align-items: center;
+}
+
+.menu__options--item {
+    margin-left: 32px;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-ligthgray);
+}
+
+.whitegap {
+    background-color: #FFFFFF;
+    width: 142px;
+    height: 32px;
+    order: 2;
+}
+
+.botao{
+    order: 3;
+    align-self: center;
+    font-family: 'Inter';
+}
+
+.botao__login {
+    color: var(--text-lightgray);
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 30px;
+}
+
+.botao__signin {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    background-color:var(--text-deco-orange);
+    border-radius: 8px;
+    padding: 10px 18px;
+}
+
+.header {
+    width: 1440px;
+    height: 407px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subheading {
+    color: var(--text-deco-orange);
+    padding-top: 96px;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.heading {
+    color: var(--text-darkgray);
+    font-family: 'Inter';
+    font-size: 48px;
+    font-weight: 600;
+    margin: 26px 0 36px 0;
+}
+
+.description {
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--text-lightgray);
+    text-align: center;
+    width: 791px;
+    height: 60px;
+    margin: 36px 325px 107px 325px;
+}
+
+.content{
+    padding: 0 112px;
+    margin-bottom: 96px;
+}
+
+.content__info {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-family: 'Inter';
+}
+
+.content__info--item {
+    display: flex;
+    flex-direction: column;
+}
+
+.number {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--text-deco-orange);
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 500;
+    color: #101828;
+    margin: 12px 32px 8px 0;
+}
+
+.info {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-lightgray);
+    margin-right: 32px;
+}
+
+.section--vacancies {
+    margin: 100px 112px;
+    font-family: 'Inter';
+}
+
+.intro__content {
+    text-align: center;
+}
+
+.intro__content--openvac {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-deco-orange);
+    background-color: #8E242410;
+    border-radius: 16px;
+    margin-bottom: 16px;
+}
+
+.intro__content--talents {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--text-darkgray);
+    margin-bottom: 20px;
+}
+
+.intro__content--description {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--text-lightgray);
+    margin-bottom: 64px;
+}
+
+.vacancies__category {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--text-darkgray);
+    margin: 64px 0 32px 226px;
+}
+
+.vacancies__card {
+    width: 58%;
+    margin-left: 226px;
+    margin-bottom: 24px;
+    padding: 26px;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+}
+
+.vacancies__card--name {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--text-darkgray);
+    margin-bottom: 32px;
+}
+.vacancies__card--infos {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-lightgray);
+    display: flex;
+}
+
+.time-payment {
+    margin-right: 24px;
+}
+
+.rating {
+    font-family: 'Inter';
+    text-align: center;
+    margin: 96px 112px;
+    padding: 64px;
+    background-color: #8E242410;
+}
+
+.rating__title {
+    margin-bottom: 16px;
+}
+
+.avatar {
+    margin: 32px 0 16px 0;
+}
+
+.avatar__name {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-darkgray);
+}
+
+.avatar__detail {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text-lightgray);
+    margin-top: 4px;
+}
+
+.footer {
+    padding: 96px 336px;
+    text-align: center;
+}
+
+.desc--footer {
+    margin-bottom: 40px;
+}
+
+.input {
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    padding: 12px 14px 12px 16px;
+    margin-right: 16px;
+}
+
+.forms {
+    display: flex;
+    justify-content: center;
+}
+
+.copyright {
+    color: var(--text-lightgray);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 32px;
+    padding: 0 187,5px;
+}
